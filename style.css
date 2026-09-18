@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(74, 74, 255);
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-width:none;
+}
+.name{
+    color:whitesmoke;
+    font-style:italic;
+    p{
+        color:black;
+    }
+    border: 2px solid red;
+    max-width: 300px;
+}
+.uber-mich{
+    p{
+        color:black;
+    }
+    color:whitesmoke;
+    position:absolute;
+    left:300px;
+    font-size:25px;
+    text-align:center;
+    border: 2px solid red;
+}
+.meine-projecte{
+    h1{
+        color:whitesmoke;
+        border: 2px solid red;
+    }
+    position:absolute;
+    top:500px;
+    left:470px;
+    font-size:25px;
+    text-align:center;
+}
+.schlue-bot{
+     border: 2px solid black;
+    border-radius: 10px;
+    border-width: 5px;
+    position:absolute;
+    min-width:300px;
+    right:460px;
+    img{
+        max-width:300px;
+    }
+ p{
+    color:rgb(160, 160, 160);
+ }   
+}
+.profbot{
+    img{
+        max-width:300px;
+    }
+    position:absolute;
+    top:625px;
+    left:1110px;
+    text-align: center;
+    width:300px;
+    border :2px solid black;
+    border-radius:10px;
+    border-width: 5px;
+    h2{
+        font-size:35px;
+    }
+    p{
+        color:rgb(160,160,160);
+        font-size:23.5px;
+    }
+    
+}
+
+.schlue-bot-link{
+    color:whitesmoke;
+    text-decoration:none;
+    border-radius:5px;
+}
+.schlue-bot-button{
+    border-radius:10px;
+    background-color:black;
+}
+
+.div-webs{
+    .webs{
+        max-width: 600px;
+    }
+border: 2px solid black;
+border-radius: 10px;
+border-width: 5px;
+max-width: 600px;
+position:absolute;
+top:626px;
+right:500px;
+text-align:center;
+h2{
+    font-size:35px;
+    right:100px;
+}
+    p{
+        color:rgb(160, 160, 160);
+        font-size:25px;
+
+}
+}
+.profbot-img{
+    max-width: 300px;
+}
+.profbot-code-link{
+    color:whitesmoke;
+    text-decoration:none;
+}
+.profbot-button{
+    border-radius:10px;
+    background-color:black;
+}
