@@ -1,5 +1,6 @@
 body{
     background-color:rgb(74, 74, 255);
+    max-width:1500px;
 }
 html{
     scroll-behavior: smooth;
