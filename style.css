@@ -5,6 +5,7 @@ body{
 html{
     scroll-behavior: smooth;
     scrollbar-width:none;
+    max-width:1500px;
 }
 .name{
     color:whitesmoke;
