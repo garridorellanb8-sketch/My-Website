@@ -1,6 +1,8 @@
 body{
     background-color:rgb(74, 74, 255);
-    max-width:1500px;
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px;
 }
 html{
     scroll-behavior: smooth;
