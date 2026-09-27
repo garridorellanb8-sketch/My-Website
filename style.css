@@ -1,10 +1,10 @@
 body{
     background-color:rgb(74, 74, 255);
+    max-width:1500px;
 }
 html{
     scroll-behavior: smooth;
     scrollbar-width:none;
-    max-width:1500px;
 }
 .name{
     color:whitesmoke;
@@ -19,20 +19,25 @@ html{
 .imagen-principal{
     max-width: 350px;
     border:5px solid black;
-    position:relative;
-    top:30px;
 }
 .uber-mich{
     p{
         color:black;
         font-style:oblique;
     }
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    margin-left:40%;
+    margin-top:-40%;
+    flex-direction: column;
+    align-items: center;
     color:whitesmoke;
-    position:absolute;
-    left:400px;
-    bottom:250px;
     font-size:30px;
+    margin-bottom:10%;
     text-align:center;
+    width:500px;
 }
 .meine-projecte{
     h1{
@@ -40,9 +45,6 @@ html{
         font-style:italic;
         font-size:70px;
     }
-    position:absolute;
-    top:712px;
-    left:480px;
     font-size:25px;
     text-align:center;
 }
@@ -50,9 +52,7 @@ html{
      border: 2px solid black;
     border-radius: 10px;
     border-width: 5px;
-    position:absolute;
-    min-width:300px;
-    right:600px;
+    width:300px;
     img{
         max-width:300px;
     }
@@ -65,10 +65,14 @@ html{
     img{
         max-width:300px;
     }
-    position:absolute;
-    top:877px;
-    left:1200px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
     text-align: center;
+    align-self:flex-start;
+    margin-left:80%;
+    margin-top:-39.5%;
+    justify-content: center;
     width:300px;
     border :2px solid black;
     border-radius:10px;
@@ -100,13 +104,17 @@ html{
     .webs{
         max-width: 600px;
     }
+display:flex;
+text-align:center;
+flex-direction:row;
+flex-wrap:wrap;
+flex-direction:column;
+margin-left:30%;
+margin-top:-40%;
 border: 2px solid black;
 border-radius: 10px;
 border-width: 5px;
 max-width: 600px;
-position:absolute;
-top:870px;
-right:475px;
 text-align:center;
 h2{
     font-size:35px;
