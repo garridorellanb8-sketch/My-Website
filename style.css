@@ -18,6 +18,8 @@ html{
     color:black;
     background-color:whitesmoke;
     width:1400px;
+    border-radius:10px;
+    border:5px solid black;
 }
 .name{
     color:whitesmoke;
