@@ -33,12 +33,10 @@ html{
     align-items: flex-start;
     margin-left:40%;
     margin-top:-50%;
-    flex-direction: column;
     align-items: center;
     color:whitesmoke;
     font-size:30px;
     margin-bottom:10%;
-    text-align:center;
     width:500px;
 }
 .meine-projecte{
@@ -69,16 +67,13 @@ html{
     }
     display:flex;
     flex-wrap: wrap;
-    align-items:center;
-    text-align: center;
     align-self:flex-start;
     margin-left:80%;
     margin-top:-39.5%;
     justify-content: center;
     width:300px;
-    border :2px solid black;
+    border :5px solid black;
     border-radius:10px;
-    border-width: 5px;
     h2{
         font-size:35px;
     }
@@ -110,14 +105,12 @@ display:flex;
 text-align:center;
 flex-direction:row;
 flex-wrap:wrap;
-flex-direction:column;
 margin-left:30%;
 margin-top:-40%;
 border: 2px solid black;
 border-radius: 10px;
 border-width: 5px;
 max-width: 600px;
-text-align:center;
 h2{
     font-size:35px;
     right:100px;
