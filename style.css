@@ -6,7 +6,12 @@ body{
 html{
     scroll-behavior: smooth;
     scrollbar-width:none;
-    max-width:1400px;
+    max-width:1200px;
+}
+.mark{
+    color:black;
+    background-color:whitesmoke;
+    width:1400px;
 }
 .name{
     color:whitesmoke;
